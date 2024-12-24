@@ -1,0 +1,13 @@
+{
+  "fmt": {
+    "singleQuote": true,
+    "semiColons": false
+  },
+  "tasks": {
+    "dev": "deno run --env-file --watch -A src/main.ts",
+    "start": "deno run --env-file -A src/main.ts"
+  },
+  "imports": {
+    "discord.js": "npm:discord.js@^14.16.3"
+  }
+}
